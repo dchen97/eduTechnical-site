@@ -1,0 +1,24 @@
+$eduTech-green: #29E552;
+$serif-stack: 'Libre Baskerville', serif;
+$sans-stack: 'Poppins', sans-serif;
+
+// Reset styles
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body: {
+  font: {
+    family: $sans-stack;
+    size: 2em;
+  }
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  font: 100% $serif-stack;
+}
